@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\API\\API.csproj": {}
+    "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\API\\API.csproj": {
+    "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\Application.csproj"
+              "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\Application.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\Application.csproj": {
+    "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Application\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -122,8 +122,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj"
               },
               "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Persistence\\Persistence.csproj"
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj": {
+    "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -249,8 +249,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\backend\\Domain\\Domain.csproj"
+              "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\PushUpFullStack\\Backend\\Domain\\Domain.csproj"
               }
             }
           }
