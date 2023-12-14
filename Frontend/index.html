@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel = "icon" href = 
+    "https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_nike_principal.jpg" 
+        type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div id="topHeader">
+        <div>FREE DELIVERY FOR ALL ORDERS NOW</div>
+        <div>FREE RETURNS</div>
+        <div>SIGN UP & GET 15% OFF</div>
+    </div>
+
+    <div id="header">
+        <div>
+            <img class="NikeLogo" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_nike_principal.jpg" width="100%" height="100%">
+        </div>
+        <div id="rightSideBox">
+            <a href="signup.html"><button>sign up</button></a>
+            <a href="adidas_checkOutPage.html"><button>log in</button></a>
+            <p>
+                <a href="Newcart.html"><i class="material-icons">shopping_bag</i></a>
+            </p>
+        </div>
+    </div>
+
+    <div id="tileOne">
+        <a href="product_page.html">
+            <div class="btns">
+                <button>SHOP NOW</button>
+            </div>
+        </a>
+    </div>
+
+    <div id="tileTwo">
+        <div class="tileTwoHeading">POPULAR RIGHT NOW</div>
+        <div id="tileTwoDetails">
+            <a href="product_men.html"><div>FACE COVERS</div></a>
+            <a href="product_women.html"><div>ADIDAS ORIGINALS</div></a>
+            <a href="product_kids.html"><div>ULTRABOOST</div></a>
+            <a href="product_men.html"><div>FOOTBALL BOOTS</div></a>
+            <a href="product_women.html"><div>ADICOLOR</div></a>
+        </div>
+    </div>
+
+    <div id="tileThree">
+        <div class="tileThreeHeading">WHO ARE YOU SHOPPING FOR?</div>
+        <div class="tileThreeImages">
+            <div onclick="showMen()" class="tileMen">
+                <h3>MEN</h3></div>
+            <div  onclick="showWomen()" class="tileWomen">
+                <h3>WOMEN</h3></div>
+            <div  onclick="showKids()" class="tileKids">
+                <h3>KIDS</h3></div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <p>Colombia</p>
+            <p>Privacy Policy &nbsp; &nbsp; | &nbsp; &nbsp; Terms and Conditions &nbsp; &nbsp; | &nbsp; &nbsp; Cookies</p>
+            <p>© 2023 Nike Colombia Marketing Pvt Ltd</p>
+        </div>
+    </footer>
+
+    <script>
+
+        function topHeaderSlideShow() {
+
+        let topHeader = document.getElementById("topHeader");
+
+        let arrayLines = [
+            "FREE DELIVERY FOR ALL ORDERS NOW",
+            "FREE RETURNS",
+            "SIGN UP & GET 15% OFF"
+        ];
+
+        let x = window.matchMedia("(max-width: 960px)")
+
+        function showTextInHeader(x) {
+
+            if (x.matches) {
+
+                let p = document.createElement("p");
+                p.textContent = arrayLines[0];
+                p.setAttribute("class", "hearderSlideContent");
+                topHeader.append(p);
+                let c = 0;
+
+                setInterval(function () {
+                    if (c == arrayLines.length) {
+                        c = 0;
+                    }
+                    p.textContent = arrayLines[c];
+                    c++;
+
+                }, 3000);
+            }
+        }
+        showTextInHeader(x)
+        x.addListener(showTextInHeader)
+        }
+        topHeaderSlideShow();
+
+        function showMen(){
+            window.location.href = "product_men.html";
+        }
+
+        function showWomen(){
+            window.location.href = "product_women.html";
+        }
+
+        function showKids(){
+            window.location.href = "product_kids.html";
+        }
+    </script>
+</body>
+</html>
